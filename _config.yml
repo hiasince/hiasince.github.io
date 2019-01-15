@@ -7,12 +7,10 @@ baseurl: ''
 disqus_shortname: 'https-hiasince-github-io'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'ByungIk Han'
+  email: byungik.han@nhnent.com
+  facebook_username: hiasince
+  github_username:  hiasince
 
 defaults:
   -
