@@ -5,6 +5,9 @@ categories: [STUDY]
 tags: [JAVASCRIPT]
 ---
 
+JavaScript Ch 1 JavaScript Ch 1 JavaScript Ch 1 JavaScript Ch 1 JavaScript Ch 1 JavaScript Ch 1 JavaScript Ch 1
+2019-01-15 15:13:242019-01-15 15:13:242019-01-15 15:13:242019-01-15 15:13:242019-01-15 15:13:242019-01-15 15:13:24
+
 # 1-1 JavaScript란
 
 JavaScript란 Netscape Communication이 개발한 브라우저 전용의 스크립트 언어.
