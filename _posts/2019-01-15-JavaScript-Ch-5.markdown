@@ -5,6 +5,9 @@ categories: [STUDY]
 tags: [JAVASCRIPT]
 ---
 
+[STUDY] JAVASCRIPT MASTER BOOK - 기초부터 실무 응용까지 CHAPTER 5
+루키바다TF - 한병익
+
 # 5.1 JavaScript의 객체지향 특징
 
 ## 5.1.1 '클래스'는 없고 '프로토타입'만 있다

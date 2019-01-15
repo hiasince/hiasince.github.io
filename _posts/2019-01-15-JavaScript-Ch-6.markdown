@@ -5,6 +5,9 @@ categories: [STUDY]
 tags: [JAVASCRIPT]
 ---
 
+[STUDY] JAVASCRIPT MASTER BOOK - 기초부터 실무 응용까지 CHAPTER 6
+루키바다TF - 한병익
+
 # 6.1 DOM의 기본 파악하기
 
 브라우저 환경을 전제로 한 내용

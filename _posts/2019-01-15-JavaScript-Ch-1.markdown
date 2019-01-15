@@ -5,8 +5,8 @@ categories: [STUDY]
 tags: [JAVASCRIPT]
 ---
 
-JavaScript Ch 1 JavaScript Ch 1 JavaScript Ch 1 JavaScript Ch 1 JavaScript Ch 1 JavaScript Ch 1 JavaScript Ch 1
-2019-01-15 15:13:242019-01-15 15:13:242019-01-15 15:13:242019-01-15 15:13:242019-01-15 15:13:242019-01-15 15:13:24
+[STUDY] JAVASCRIPT MASTER BOOK - 기초부터 실무 응용까지 CHAPTER 1
+루키바다TF - 한병익
 
 # 1-1 JavaScript란
 

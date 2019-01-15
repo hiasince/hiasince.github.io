@@ -5,6 +5,9 @@ categories: [STUDY]
 tags: [JAVASCRIPT]
 ---
 
+[STUDY] JAVASCRIPT MASTER BOOK - 기초부터 실무 응용까지 CHAPTER 3
+루키바다TF - 한병익
+
 # 3.1 객체란?
 
 객체 지향적 언어다

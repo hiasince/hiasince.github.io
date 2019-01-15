@@ -5,6 +5,9 @@ categories: [STUDY]
 tags: [JAVASCRIPT]
 ---
 
+[STUDY] JAVASCRIPT MASTER BOOK - 기초부터 실무 응용까지 CHAPTER 2
+루키바다TF - 한병익
+
 # 2.1 JavaScript의 기본적인 표기
 
 추천 에디터 : Visual Studio Code, Subline Text, Atom
