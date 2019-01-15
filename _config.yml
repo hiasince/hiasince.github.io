@@ -4,7 +4,7 @@ description: 'Everything changes. So Why dont you cherish every moment'
 url: 'https://hiasince.github.io./'
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'https-hiasince-github-io'
 
 author:
   name: 'Josh Gerdes'
