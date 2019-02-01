@@ -14,44 +14,44 @@ tags: [DAILY RECORD]
 Spring boot에서 각종 환경설정 정보를 src/main/resource 안에 application.properties 파일에 저장해놓고 로드될 수 있도록 합니다.
 application.properties에서 설정된 값은  Spring Boot 애플리케이션이 실행될 때 자동으로 로드하여 해당 설정을 적용하게 됩니다.
 
-<img src="https://nhnent.dooray.com/files/2404176551346403577">
+<img src="https://github.com/hiasince/hiasince.github.io/blob/master/images/post/image.png">
 
 위와 같은 그림이 profile을 사용하기 전의 저희 TF의 properties 였습니다.
 여기서 profile에 따라 적용되는 properties를 변경하고자 했을 때, profile에 따른 properties를 각각 정의하는 것으로 시작합니다.
 
 
-![image.png](/files/2404175780525987007)
+<img src="https://github.com/hiasince/hiasince.github.io/blob/master/images/post/image (1).png">
 application.properties 파일을 통하여 profile 설정하고자 할 때는 위과 같이 **application-{profile}.properties** 라는 이름으로 /src/main/resource 에 두게 됩니다.
 application.properties에서는 모든 profile에서 공통적으로 사용할 내용들을 집어넣습니다. (database 설정, view.prefix, suffix 등등)
 
-![image.png](/files/2404184666317951478)
+<img src="https://github.com/hiasince/hiasince.github.io/blob/master/images/post/image (2).png">
 
 그 후에 application.properties에 적용하고 싶은 spring.profiles.active= 뒤에 적용하고자 하는 profile 이름을 넣으면 됩니다.
 
 
 ## profile 마다 다르게 넣고 싶은 변수
 
-![image.png](/files/2404180706783194074)
+<img src="https://github.com/hiasince/hiasince.github.io/blob/master/images/post/image (3).png">
 각  profile 마다 다르게 넣고 싶은 변수들은 profile의 properties에 property로 설정합니다.
 
-![image.png](/files/2404180927657063450)
+<img src="https://github.com/hiasince/hiasince.github.io/blob/master/images/post/image (4).png">
 지정된 값은 위와 같이 불러올 수 있습니다.
 value annotation을 사용하는 경우 lombok에서 제공해주는 것과 spring bean에서 제공해주는 것이 있는데, **spring bean을 사용**하고 lombok을 사용하지 않도록 주의합니다.
 
 
 ## spring-shell disable
-![image.png](/files/2404183683828136935)
+<img src="https://github.com/hiasince/hiasince.github.io/blob/master/images/post/image (5).png">
 spring-shell를 실행하고 싶지 않은 profile의 properties에 spring.shell.interactive.enabled=false 항목을 추가합니다.
 
 
 ## web disable
-![image.png](/files/2404184204574347415)
+<img src="https://github.com/hiasince/hiasince.github.io/blob/master/images/post/image (6).png">
 web을 실행하고 싶지 않은 profile의 properties에 spring.main.web-environment=false항목을 추가합니다.
 
 
 ## 폴더를 이용한 방법
 
-![image.png](/files/2404187221642452197)
+<img src="https://github.com/hiasince/hiasince.github.io/blob/master/images/post/image (7).png">
 
 application.properties 파일을 통하여 profile 설정하고자 할 때는 위과 같이 profile에 해당하는 라는 이름으로 폴더를 만들고 그 안에는 application.properties로 동일하게 설정하여 /src/main/resource 에 두게 됩니다.
 
@@ -61,7 +61,7 @@ application.properties 파일을 통하여 profile 설정하고자 할 때는 �
 Spring Boot에서는 application.properties가 아닌 application.yml 을 이용해 프로파일 간의 속성들을 관리할 수 있다. src/main/resources 안에 application.properties가 아닌 application.yml 파일을 위치시키면 자동으로 그 파일을 로드하여 설정한다.
 
 application.properties 와 마찬가지로 java -jar -Dspring.profiles.active=dev app.jar 같이 옵션을 주어 프로파일 별로 다르게 속성을 설정할 수 있는데 한 yml 파일에 프로파일 간의 다른 속성들을 설정할 수 있다는 것이 다르다.
-![image.png](/files/2404188618757894693)
+<img src="https://github.com/hiasince/hiasince.github.io/blob/master/images/post/image (8).png">
 <span style="color:#e11d21">**위와 같은 방법은 블로그에서 확인한 것으로, 아직 적용해보지는 않았다.**</span>
 
 
