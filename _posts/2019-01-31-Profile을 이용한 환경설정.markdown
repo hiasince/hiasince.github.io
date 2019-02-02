@@ -14,7 +14,7 @@ tags: [SPRING]
 Spring boot에서 각종 환경설정 정보를 src/main/resource 안에 application.properties 파일에 저장해놓고 로드될 수 있도록 합니다.
 application.properties에서 설정된 값은  Spring Boot 애플리케이션이 실행될 때 자동으로 로드하여 해당 설정을 적용하게 됩니다.
 
-![image](https://github.com/hiasince/hiasince.github.io/blob/master/images/post/image.png)
+![image](/images/post/image.png)
 
 위와 같은 그림이 profile을 사용하기 전의 저희 TF의 properties 였습니다.
 여기서 profile에 따라 적용되는 properties를 변경하고자 했을 때, profile에 따른 properties를 각각 정의하는 것으로 시작합니다.
