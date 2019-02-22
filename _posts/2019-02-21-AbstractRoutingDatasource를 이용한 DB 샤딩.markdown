@@ -24,13 +24,13 @@ tags: [SPRING]
 AbstractRoutingDataSource는 아래 그림에서 확인할 수 있듯이 InitializingBean을 구체화하고 DataSource를 구체화한 AbstractDataSource를 상속하고 있습니다.
 InitializingBean은 빈 객체의 라이프 사이클과 관련된 인터페이스로 bean 객체를 생성하고 프로퍼티를 초기화하고, 설정을 완료한 후 호출되는 메서드를 정의하고 있습니다.
 ![image](/images/post/AbstractRoutingDataSource/1.png) 
- 참조 : http://www.manongjc.com/article/13402.html
+ <br>참조 : http://www.manongjc.com/article/13402.html
 
 ## DataSource란?
 
 AbstractDataSource는 DataSource 인터페이스를 구체화한 것으로, JDBC 명세의 일부분이면서 일반화된 연결 팩토리입니다. 
 즉 DB와 관계된 connection 정보를 담고 있으며, bean으로 등록하여 인자로 넘겨주게 됩니다. 이 과정을 통해 Spring은 DataSource로 DB와의 연결을 획득하게 되는 것입니다.
-![image](/images/post/AbstractRoutingDataSource/2.png)
+![image](/images/post/AbstractRoutingDataSource/2.PNG)<br>
 참조: https://gmlwjd9405.github.io/2018/05/15/setting-for-db-programming.html
 
 DataSource는 아래 코드와 같이 DatasourceBuilder를 이용해서 간단하게 생성할 수 있습니다.
@@ -151,7 +151,7 @@ public class MailDataSourceContextHolder {
 AOP(Aspect Oriented Programming)란 관점지향 프로그래밍으로, 핵심 기능들을 분리하여 구현하는 OOP(Object Oriented Programming)에
 핵심 기능들에 부가적으로 필요한 로깅, 예외처리, 데이터 검증과 같이 반복되는 부가기능을 따로 분리하여 핵심 기능에 더욱 집중할 수 있고,
 부가 기능은 따로 관리하여 반복을 줄이고, 유지보수를 더 편하게 할 수 있도록 관심 분리를 한 것입니다. 이러한 부가기능을 횡단 관심이라고도 합니다.
-![image](/images/post/AbstractRoutingDataSource/3.png)
+![image](/images/post/AbstractRoutingDataSource/3.PNG)<br>
 참조 : http://closer27.github.io/backend/2017/08/03/spring-aop/
 
 이러한 AOP를 구현하기 위해서는 JoinPoint, PointCut, Advice, Aspect 라는 개념이 추가됩니다.
