@@ -16,7 +16,7 @@ Linux 계열 OS에서는 uptime이나 top 명령어를 통해 볼 수 있다. �
 
 출처 : <https://www.programering.com/a/MDO4EDMwATk.html>
 
-**그렇다면 Load가 무엇이기에 Load Average가 중요하다는 걸까?**
+## 그렇다면 Load가 무엇이기에 Load Average가 중요하다는 걸까?
 
 말로 설명하자면 Load는 시스템에서 실행 중인 thread (task) 요구를 평균 실행 횟수 와 대기 중인 thread의 수로 보여주는 "시스템 부하 평균"이라고 한다.
 
