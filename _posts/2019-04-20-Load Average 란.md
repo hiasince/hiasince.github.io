@@ -11,7 +11,7 @@ Load Average는 Load 값의 평균을 나타낸 수치로, 꽤 중요한 수치�
 
 Linux 계열 OS에서는 uptime이나 top 명령어를 통해 볼 수 있다. 아래와 같이  1분, 5분, 15분 단위로 각각 계산하여 보여준다.
 
-1번 이미지
+![image](/images/post/linux-loadAverage/1.jpg)
 
 출처 : <https://www.programering.com/a/MDO4EDMwATk.html>
 
@@ -23,7 +23,7 @@ Linux 계열 OS에서는 uptime이나 top 명령어를 통해 볼 수 있다. �
 
 한정적인 자원인 CPU를 OS의 Process Scheduler가 Queue를 이용하여, CPU 자원을 점유할 Process를 조절한다.
 
-2번 이미지 
+![image](/images/post/linux-loadAverage/2.png)
 
 출처 : cs.rutgers.edu
 
@@ -37,7 +37,7 @@ Process Scheduler는 Process Descriptor를 이용해서 프로세스 상태를 �
 
 프로세스의 상태 값은 아래와 같이 변화한다.
 
-3번 이미지
+![image](/images/post/linux-loadAverage/3.png)
 
 출처 : <https://lunatine.net/2016/02/19/about-load-average/>
 
@@ -96,7 +96,7 @@ Load Average를 실제로 구현한 코드를 보니, 1분, 5분, 15분의 평�
 
 그렇기에, 실제 놀고 있는 서버에 single-thread 프로그램을 실행시키면 아래와 같은 그래프를 띈다. 1분 평균이 1.0이 아니고, 5분 평균이 1.0도 아니다....
 
-이미지 5
+![image](/images/post/linux-loadAverage/5.png)
 
 출처 : <http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html>
 
