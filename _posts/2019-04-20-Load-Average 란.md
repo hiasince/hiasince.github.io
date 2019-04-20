@@ -7,6 +7,7 @@ tags: [LINUX]
 
 # Load Average 란?
 
+
 Load Average는 Load 값의 평균을 나타낸 수치로, 꽤 중요한 수치이다.
 
 Linux 계열 OS에서는 uptime이나 top 명령어를 통해 볼 수 있다. 아래와 같이  1분, 5분, 15분 단위로 각각 계산하여 보여준다.
