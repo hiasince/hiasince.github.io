@@ -15,7 +15,7 @@ Linux 계열 OS에서는 uptime이나 top 명령어를 통해 볼 수 있다. �
 
 출처 : <https://www.programering.com/a/MDO4EDMwATk.html>
 
-**그렇다면 Load가 무엇이기에 Load Average가 중요하다는 걸까? **
+**그렇다면 Load가 무엇이기에 Load Average가 중요하다는 걸까?**
 
 말로 설명하자면 Load는 시스템에서 실행 중인 thread (task) 요구를 평균 실행 횟수 와 대기 중인 thread의 수로 보여주는 "시스템 부하 평균"이라고 한다.
 
@@ -100,7 +100,7 @@ Load Average를 실제로 구현한 코드를 보니, 1분, 5분, 15분의 평�
 
 출처 : <http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html>
 
-**Load Average 어떻게 보아야하는가**
+## Load Average 어떻게 보아야하는가
 
 Load Average가 정확한 값이 아니라면.... 어떤 정보를 얻어야하고, 어떤 수준이 위험한 수준인가가 가장 첫 번째로 떠오른다.
 
