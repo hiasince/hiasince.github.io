@@ -5,8 +5,9 @@ categories: [POST]
 tags: [LINUX]
 ---
 
-# Load Average 란?
+# Load Average
 
+## Load Average 란?
 
 Load Average는 Load 값의 평균을 나타낸 수치로, 꽤 중요한 수치이다.
 
