@@ -1,13 +1,11 @@
 ---
-title:  "Load Average 란?"
+title:  "Linux에서의 Load Average"
 date:   2019-04-20 22:13:24
 categories: [POST]
 tags: [LINUX]
 ---
 
-# Load Average
-
-## Load Average 란?
+# Load Average 란?
 
 Load Average는 Load 값의 평균을 나타낸 수치로, 꽤 중요한 수치이다.
 
