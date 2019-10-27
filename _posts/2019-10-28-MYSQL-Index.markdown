@@ -1,4 +1,9 @@
-
+---
+title:  "MYSQL Index"
+date:   2019-10-28 22:13:24
+categories: [POST]
+tags: [MYSQL]
+---
 
 # MYSQL 인덱스 정리
 
