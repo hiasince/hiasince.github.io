@@ -58,7 +58,7 @@ MYSQL의 Query Optimizer는 통계 정보를 이용하여 쿼리 플랜을 생�
 
 Equal 조건을 좌측, Range 조건을 우측에 배치하는 것이 유리합니다. 그 이유는  Equal 구문은 단 하나만 만족하면 되기 때문에 좌측에 배치하여 먼저 정렬하고 Range 조건의 경우에는 해당 조건대로 정렬되어 있어야 찾기 편하기 때문입니다. 아래의 경우를 보면 Equal 구문과 Range 구문을 만족하는 데이터를 찾기 위해서 얼마나 많은 범위를 참조해야하는 지 비교하여 볼 수 있습니다.
 
-![image-20191027175721794](/Users/hanbyung-ik/Library/Application Support/typora-user-images/image-20191027175721794.png)
+![image](/images/post/MYSQL-Index/image1.png)
 
 ## 인덱스 사용 시 주의할 점
 
