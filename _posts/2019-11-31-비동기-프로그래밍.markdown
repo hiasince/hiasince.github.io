@@ -29,7 +29,7 @@ tags: [LINUX]
 
  기본적으로 linux 운영체제는 Blocking I/O으로 동작하고 있습니다. Blocking I/O는 아래의 그림과 같이 동작하게 됩니다.
 
-![image-20191103220014276](/Users/hanbyung-ik/Library/Application Support/typora-user-images/image-20191103220014276.png)
+![image](/images/post/asyncprogramming/1.png)
 
 * 사용자(Application)이 커널에 recvfrom을 이용해 데이터 read를 요청합니다. 
 * 커널이 보내줄 데이터를 준비하고 카피하여 가져오게 되고, 사용자는 이 작업 동안 기다리게 됩니다.
@@ -41,7 +41,7 @@ tags: [LINUX]
 
 blocking I/O를 개선시킨 방향으로 I/O 작업이 진행되는 동안 유저 프로세스의 작업을 중단시키지 않는 방식이다.
 
-![img](https://user-images.githubusercontent.com/41428527/51266324-4e721e00-19fe-11e9-900a-809ff39e40c1.png)
+![image](/images/post/asyncprogramming/2.png)
 
 * 사용자(Application)이 커널에 recvfrom을 이용해 데이터 read를 요청합니다. 
 * 데이터가 준비되었든지 안되었는지 상관없이 바로 결과가 반환됩니다.
@@ -57,7 +57,7 @@ blocking I/O를 개선시킨 방향으로 I/O 작업이 진행되는 동안 유�
 
 위의 비효율적인 방식을 개선한 것이 Asynchronous I/O 입니다. 
 
-![image-20191201195104618](/Users/hanbyung-ik/Library/Application Support/typora-user-images/image-20191201195104618.png)
+![image](/images/post/asyncprogramming/3.png)
 
 * 사용자(Application)이 커널에 recvfrom을 이용해 데이터 read를 요청합니다. 
 * 데이터가 준비되었든지 안되었는지 상관없이 바로 결과가 반환됩니다.
