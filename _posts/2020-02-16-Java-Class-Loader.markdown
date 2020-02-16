@@ -1,6 +1,11 @@
+---
+title:  "Java Class Load 과정 - Java 8"
+date:   2020-02-16 22:13:24
+categories: [POST]
+tags: [JAVA]
+---
+
 # Java Class Load 과정 - Java 8
-
-
 
 Java로 프로그래밍을 하는 사람이라면 우리가 .java 파일로 작성한 소스 코드가 빌드하면서 어떤 과정을 거치는지, 어떻게 JVM에 올라가는지 아는 것은 중요합니다. 그래야 클래스 로딩 때 발생하는 이슈를 해결할 수 있고 코드 상에서 동적으로 클래스를 로딩하는 구문을 이해할 수 있으며, Java의 동작 방식에 대해 한층 깊게 알게되는 것이기 때문입니다.
 
@@ -58,7 +63,7 @@ Class loader of this class:sun.misc.Launcher$AppClassLoader@18b4aac2
 
 마지막으로는 `Application/System Loader`로 classpath나 실행시킨 jar 파일 안에 있는 manifest 파일에 지정된 경로에 있는 클래스들을 로딩합니다. 쉽게 말해 내가 작성한 클래스를 로드해주는 역할을 합니다.
 
-![image-20200216210511327](/Users/hanbyung-ik/Library/Application Support/typora-user-images/image-20200216210511327.png)
+![image](/images/post/JavaClassLoader/1.png)
 
 출처 : https://dev.vividbreeze.com/jvm-classloading/
 
@@ -72,7 +77,7 @@ Class loader of this class:sun.misc.Launcher$AppClassLoader@18b4aac2
 
 Delegation Model(위임 모델)은 **하위 클래스 로더는 클래스 또는 리소스 검색을 상위 클래스 로더에 위임한다**는 원칙입니다. 그래서 최상위 클래스 로더인 Bootstrap ClassLoader 부터 자신이 해당 클래스를 가지고 있는지 확인한 후 결과를 돌려주는 방식으로 진행됩니다.
 
-![image-20200216212452182](/Users/hanbyung-ik/Library/Application Support/typora-user-images/image-20200216212452182.png)
+![image](/images/post/JavaClassLoader/2.png)
 
 출처 : https://homoefficio.github.io/2018/10/13/Java-클래스로더-훑어보기
 
