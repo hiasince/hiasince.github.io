@@ -80,8 +80,7 @@ Java Native Method Interface는 줄여서 JNI라고도 한다. JNI는 JVM에 의
 5. 해석된 바이트코드는 Runtime Data Areas에 배치되어 실질적인 수행이 이루어지게된다.
    이러한 실행과정속에서 JVM은 필요에 따라 Thread Synchronization과 GC같은 관리 작업을 수행한다.
 
-![image-20200802200219528](/Users/hanbyung-ik/Library/Application Support/typora-user-images/image-20200802200219528.png)
-
+![image](/images/post/JVM/1.png)
 
 
 ### 참고
